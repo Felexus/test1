@@ -1,0 +1,51 @@
+
+@include font-face("philosopher", "../fonts/philosopher/philosopher", 400, normal);
+@include font-face("philosopher", "../fonts/philosopher/philosopher-italic", 400, italic);
+@include font-face("philosopher", "../fonts/philosopher/philosopher-bold", 700, normal);
+@include font-face("philosopher", "../fonts/philosopher/philosopher-bolditalic", 700, italic);
+
+
+
+// @include font-face("muller", "../fonts/muller/mullerthindemo",     300, normal);
+// @include font-face("muller", "../fonts/muller/muller-lightitalic",     300, italic);
+// @include font-face("muller", "../fonts/muller/muller-regular",   400, normal);
+// @include font-face("muller", "../fonts/muller/muller-regularitalic",   400, italic);
+// @include font-face("muller", "../fonts/muller/muller-medium",    500, normal);
+// @include font-face("muller", "../fonts/muller/muller-mediumitalic",    500, italic);
+// @include font-face("muller", "../fonts/muller/muller-semibold",  600, normal);
+// @include font-face("muller", "../fonts/muller/muller-semibolditalic",  600, italic);
+// @include font-face("muller", "../fonts/muller/mullerextrabolddemo",      700, normal);
+// @include font-face("muller", "../fonts/muller/muller-bolditalic",      700, italic);
+
+@include font-face("montserrat", "../fonts/montserrat/montserrat-thin",     300, normal);
+@include font-face("montserrat", "../fonts/montserrat/montserrat-lightitalic",     300, italic);
+@include font-face("montserrat", "../fonts/montserrat/montserrat-regular",   400, normal);
+@include font-face("montserrat", "../fonts/montserrat/montserrat-regularitalic",   400, italic);
+@include font-face("montserrat", "../fonts/montserrat/montserrat-medium",    500, normal);
+@include font-face("montserrat", "../fonts/montserrat/montserrat-mediumitalic",    500, italic);
+@include font-face("montserrat", "../fonts/montserrat/montserrat-semibold",  600, normal);
+@include font-face("montserrat", "../fonts/montserrat/montserrat-semibolditalic",  600, italic);
+@include font-face("montserrat", "../fonts/montserrat/montserrat-bold",      700, normal);
+@include font-face("montserrat", "../fonts/montserrat/montserrat-bolditalic",      700, italic);
+
+@include font-face("bebasneue", "../fonts/bebasneue/bebasneuelight",     300, normal);
+@include font-face("bebasneue", "../fonts/bebasneue/bebasneuelightitalic",     300, italic);
+@include font-face("bebasneue", "../fonts/bebasneue/bebasneueregular",   400, normal);
+@include font-face("bebasneue", "../fonts/bebasneue/bebasneueregularitalic",   400, italic);
+@include font-face("bebasneue", "../fonts/bebasneue/bebasneuemedium",    500, normal);
+@include font-face("bebasneue", "../fonts/bebasneue/bebasneuemediumitalic",    500, italic);
+@include font-face("bebasneue", "../fonts/bebasneue/bebasneuesemibold",  600, normal);
+@include font-face("bebasneue", "../fonts/bebasneue/bebasneuesemibolditalic",  600, italic);
+@include font-face("bebasneue", "../fonts/bebasneue/bebasneuebold",      700, normal);
+@include font-face("bebasneue", "../fonts/bebasneue/bebasneuebolditalic",      700, italic);
+
+@include font-face("muller", "../fonts/muller/mullerlight",     300, normal);
+@include font-face("muller", "../fonts/muller/mullerlightitalic",     300, italic);
+@include font-face("muller", "../fonts/muller/mullerregular",   400, normal);
+@include font-face("muller", "../fonts/muller/mullerregularitalic",   400, italic);
+@include font-face("muller", "../fonts/muller/mullermedium",    500, normal);
+@include font-face("muller", "../fonts/muller/mullermediumitalic",    500, italic);
+@include font-face("muller", "../fonts/muller/mullersemibold",  600, normal);
+@include font-face("muller", "../fonts/muller/mullersemibolditalic",  600, italic);
+@include font-face("muller", "../fonts/muller/mullerbold",      700, normal);
+@include font-face("muller", "../fonts/muller/mullerbolditalic",      700, italic);

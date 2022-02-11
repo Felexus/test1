@@ -1,0 +1,219 @@
+.header {
+    padding-top: 194px;
+}
+
+.footer {
+    padding-bottom: 240px;
+}
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+.comp {
+    padding-top: 36px;
+    padding-left: 15px;
+    position: relative;
+    &-title {
+        width: 840px;
+    }
+    &-ul {
+        margin-top: 60px;
+    }   
+    &-img {
+        width: 866px;
+        height: 680px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+}
+
+.pack {
+    margin-top: 155px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    .deo {
+        position: absolute;
+        left: -183px;
+        top: -125px;
+        z-index: -1;
+    }
+    &-title {
+        text-align: center;
+    }
+    &-text {
+        font-size: 36px;
+        font-family: "Roboto";
+        color: rgb(0, 0, 0);
+        line-height: 1.2;
+        text-align: center;
+        margin-top: 12px;       
+    }
+    &-items {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        &-item {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            align-items: center;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 12px 65.28px 2.72px rgba(7, 16, 29, 0.13);
+            height: 336px;
+            margin-top: 34px;
+            padding-left: 60px;
+            padding-right: 40px;
+            transition: 0.5s;
+            &-left {
+                max-width: 540px;
+                p {
+                    margin-top: 16px;
+                    font-size: 28px;
+                    font-family: "Roboto";
+                    color: rgb(0, 0, 0);
+                    line-height: 1.2;
+                    text-align: left;                      
+                }
+            }
+            &-right {
+                width: 330px;
+                &-priceold {
+                    font-size: 36px;
+                    font-family: "Roboto";
+                    color: rgb(162, 177, 197);
+                    text-decoration: line-through;
+                    text-transform: uppercase;
+                    // line-height: 2;                      
+                }
+                &-price {
+                    font-size: 60px;
+                    font-family: "Roboto";
+                    color: rgb(0, 0, 0);
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    line-height: 1.2;
+                    text-align: left;                      
+                }
+                &-ek {
+                    font-size: 36px;
+                    font-family: "Roboto";
+                    color: rgb(0, 0, 0);
+                    text-align: left;   
+                    margin-bottom: 40px;                   
+                }
+            }
+            &:hover {
+                transform: scale(1.01);
+                transition: 0.5s;
+            }
+        }
+    }
+}
+
+.drinks {
+    margin-top: 320px;
+    position: relative;
+    padding-right: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    width: 100%;
+    .deo {
+        position: absolute;
+        right: -200px;
+        top: -860px;
+
+        z-index: -1;
+    }
+    h1{
+        padding-right: 35px;
+        text-align: left;
+    }
+    &-img {
+        position: absolute;
+        left: -41px;
+        top: -216px;
+    }
+}
+
+.prem {
+    margin-top: 396px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    .deo {
+        position: absolute;
+        right: -195px;
+        top: -566px;
+        z-index: -1;
+    }
+    h1 {
+        text-align: center;
+    }
+    ul {
+        margin-top: 65px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .wrapper {
+        width: 1240px;
+    }
+    .comp-title {
+        width: 600px;
+    }
+    .comp-img {
+        top: 30px;
+    }
+    .comp-ul {
+        margin-top: 30px;
+    }
+    .pack-text {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .pack-items-item-left p {
+        font-size: 24px;
+    }
+    .pack-items-item-left {
+        max-width: 480px;
+    }
+    .pack-items-item-right-priceold {
+        font-size: 28px;
+    }
+    .pack-items-item-right-price {
+        font-size: 48px;
+    }
+    .pack-items-item-right-ek {
+        font-size: 28px;
+    }
+    .pack-items-item-img {
+        width: 284px;
+    }
+    .drinks-img {
+        z-index: -1;
+        left: -25px;
+        top: -108px;
+        width: 500px;
+    }
+    .drinks h1 {
+        padding-right: 0px;
+        width: 700px;
+    }
+    .drinks {
+        margin-top: 210px;
+    }
+    .prem {
+        margin-top: 270px;
+    }
+}

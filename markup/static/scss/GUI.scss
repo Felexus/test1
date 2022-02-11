@@ -238,6 +238,7 @@ ul {
         text-align: left;
         font-weight: 500;
         padding-left: 50px;
+        position: relative;
         &:not(:nth-child(1)) {
             padding-top: 6px;
         }
@@ -246,6 +247,9 @@ ul {
             width: 24px;
             height: 18px;
             background-image: url('../img/content/check.png');
+            position: absolute;
+            left: 4px;
+            top: 8px;
         }
     }          
 }
